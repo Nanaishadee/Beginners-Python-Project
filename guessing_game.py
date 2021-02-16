@@ -1,3 +1,4 @@
+#code for the user to guess
 import random
 
 def guess(x):
@@ -11,6 +12,8 @@ def guess(x):
             print("Got ya, better luck next time. Too high")
 
     print(f"Someone got luck today!! You have  the number {random_number} right ")
+    
+    # code for the computer to guess
 def program_guess(x):
     low = 1
     high = x
